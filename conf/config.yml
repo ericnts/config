@@ -1,0 +1,11 @@
+project:
+  name: &projectName config
+  httpPort: 8090
+  rpcPort: 8080
+  tcpPort: 8081
+  logResponse: true
+  swagger: true
+  pprof: true
+
+log:
+  names: *projectName
