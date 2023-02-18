@@ -4,6 +4,7 @@ import "time"
 
 type Project struct {
 	Name        string        `yaml:"name"`
+	HttpPrefix  string        `yaml:"httpPrefix"`  //请求路径前缀
 	HttpPort    uint16        `yaml:"httpPort"`    // http端口
 	RpcPort     uint16        `yaml:"rpcPort"`     // rpc端口
 	TcpPort     uint16        `yaml:"tcpPort"`     // tcp端口
